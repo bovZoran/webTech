@@ -1,4 +1,4 @@
-## A "delicious" pancake recipe
+## A _delicious_ pancake recipe
 
 **Required Ingredients**
 

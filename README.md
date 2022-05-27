@@ -1,6 +1,6 @@
 # webTech
 
-- [ ] HTML
+- [X] HTML
 - [X] Markdown
 - [ ] CSS
 - [ ] Bootstrap

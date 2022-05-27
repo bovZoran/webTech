@@ -1,79 +1,94 @@
 <!DOCTYPE html>
-<html lang="nl">
+<html lang="en">
     <head>
-        <title>Basic bootstrap</title>
-
-        <style>
-            #borderintro {
-                background-color: rgb(58, 157, 0); 
-                border-style: solid; 
-                border-color: rgb(0, 255, 195); 
-                border-style: ridge; 
-                text-align: centre;
-            }
-        </style>
-
+        <title>Basic Bootstrap</title>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
         <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
     </head>
     <body>
-        <div class="container p-3 my-3 border">
-            <h1><center>Bootstrap</center></h1>
-        </div>
 
-        <div class="row">
-            <div class="col-sm-3" id="borderintro">this</div>
-            <div class="col-sm-3" id="borderintro">is</div>
-            <div class="col-sm-3" id="borderintro">ok.</div>
-        </div>
-        
-        <div class="container p-3 m-3 border">
-
-            <b>Headers</b>
-            <h1>h1 heading</h1>
-            <h2>h2 heading</h2>
-            <h3>h3 heading</h3>
-            <h4>h4 heading</h4>
-          </div>
-          
-            <h3>Tags</h3>
-            <hr>
-            <p class="font-weight-bold">Bold text.</p>
-             <p class="font-italic">Italic text.</p>
-            <p class="font-weight-bolder">Bolder text.</p>
-            <p class="font-weight-normal">Normal weight text.</p>
-            <p class="font-weight-lighter">Lighter weight text.</p>
-            <p class="font-weight-light">Light weight text.</p>
-        </div>
-
-        <div class="container p-3 m-3 border">
-            <h2>Kleuren.</h2>
-            <p class="text-muted">Muted</p>
-            <p class="text-danger">Danger</p>
-            <p class="text-warning">Warning</p>
-            <p class="text-primary">Primary</p>
-            <p class="text-secondary">Secondary text</p>
-            <p class="text-body">Default color</p>
-          </div>
-
-        <div class="container p-3 m-3 border">
-            <h1>buttons</h1>
-            <p>Solid buttons:</p>
-            <button type="button" class="btn btn-primary">Primary</button>
-            <button type="button" class="btn btn-secondary">Secondary</button>       
-            <hr>
-            <p>seetrough buttons:</p>
-            <button type="button" class="btn btn-outline-primary">Primary</button>
-            <button type="button" class="btn btn-outline-secondary">Secondary</button>
-            <button type="button" class="btn btn-outline-success">Success</button>
-            <hr>
-            <button type="button" class="btn btn-primary btn-sm">Klein</button>
-            <button type="button" class="btn btn-primary btn-md">Normaal</button>  
-            <button type="button" class="btn btn-primary btn-lg">Groot</button>
-              
+            <h1 class="display-2" text-align="left">Basic Bootstrap</h1>
+            <p class="text-light" style="background-color: black;">titel class is Display-2 and This text is light grey on black background</p>
+            <p class="bg-success text-white">here is white text on a green background</p>
             
+        
+            <div class="container p-3 m-3 border">
+                <b>example of headers with colors</b>
+                <p><small>header 4 and 5 are also links</small></p>
+                <h1 class="text-primary">h1 heading</h1>
+                <h2 class="text-success">h2 heading</h2>
+                <h3 class="text-info">h3 heading</h3>
+                <a href="https://www.google.com"><h4 class="text-warning">h4 heading</h4></a>
+                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><h5 class="text-danger">h5 heading</h5></a>
+            </div>
+          
+          
+            <img src="kermit.jpg" class="rounded" alt="Kermit">
+            <p><sup>"rounded" image of Kermit</sup></p>
+
+            <div class="container p-3 m-3 border">
+                <h1>Some HTML text types</h1>
+                <hr>
+                <p>normal text for reference.</p>
+                <p><b>This text is bold.</b></p>
+                <p><i>This text is italic.</i></p>
+                <p><small>This text is small!</small></p>
+                <p><ins>This text is underlined.</ins></p>
+                <p>This text is <sup>Superscript.</sup></p>
+        
+                <h3>Some with Bootstrap</h3>
+                <hr>
+                <p class="font-weight-bold">Bold text.</p>
+                <p class="font-weight-bolder">Bolder text.</p>
+                <p class="font-weight-normal">Normal weight text.</p>
+                <p class="font-weight-light">Light weight text.</p>
+                <p class="font-italic">Italic text.</p>
+            </div>
+
+
+
+        <div class="container p-3 m-3 border">
+            <h1>a few buttons</h1>
+            <button type="button" class="btn">Basic</button>
+            <button type="button" class="btn btn-default">Default</button>
+            <button type="button" class="btn btn-primary">Primary</button>
+            <button type="button" class="btn btn-success">Success</button>
+            <button type="button" class="btn btn-info">Info</button>
+            <button type="button" class="btn btn-warning">Warning</button>
+            <button type="button" class="btn btn-danger">Danger</button>
+            <button type="button" class="btn btn-link">Link</button>
             <hr>
-            <a href="https://www.youtube.com/" class="btn btn-info" role="button">Click here</a>
+            <button type="button" class="btn btn-primary btn-lg">Large</button>
+            <button type="button" class="btn btn-primary">Normal</button>
+            <button type="button" class="btn btn-primary btn-sm">Small</button>
+
+            <hr>
+            
         </div>
+
+            <hr>
+           
+            <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#demo">click here!</button>
+            <div id="demo" class="collapse hidden">
+            <div class="spinner-border spinner-border-sm"></div><br>
+            </div>
+
+            <hr>
+
+            <p>example of page buttons</p>
+            <ul class="pagination">
+                <li class="page-item"><a class="page-link" href="">Previous</a></li>
+                <li class="page-item"><a class="page-link" href="">1</a></li>
+                <li class="page-item"><a class="page-link" href="">2</a></li>
+                <li class="page-item"><a class="page-link" href="">3</a></li>
+                <li class="page-item"><a class="page-link" href="">4</a></li>
+                <li class="page-item"><a class="page-link" href="">5</a></li>
+                <li class="page-item"><a class="page-link" href="">Next</a></li>
+            </ul>
+            <br>
+            <br>
+        </div>
+    </body>
+</html>

@@ -2,7 +2,7 @@
 
 - [X] HTML
 - [X] Markdown
-- [ ] CSS
+- [X] CSS
 - [ ] Bootstrap
 - [ ] JavaScript
 - [ ] Ajax  

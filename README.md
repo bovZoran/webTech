@@ -1,10 +1,10 @@
 # webTech
 
-- [] HTML
+- [ ] HTML
 - [X] Markdown
-- [] CSS
-- [] Bootstrap
-- [] JavaScript
+- [ ] CSS
+- [ ] Bootstrap
+- [ ] JavaScript
 - [ ] Ajax  
 - [ ] PHP
 - [ ] SQL

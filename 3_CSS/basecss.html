@@ -1,34 +1,37 @@
 <!DOCTYPE html>
 <head>
-    <style>
-        * {
-            color: pink;
-        }
-        h1 {
-            color: black;
-            background-color: blue;
-            text-align: center;
-        }
-        #hcontrast {
-            text-align: center;
-            background-color: black;
-            color: pink;
-        }
-
-        .center {
-            text-align: center;
-        }
-
-        p.large {
-            font-size: 300%;
-        }
-    </style>
-    <title>CSS</title>
+    <title>CSS-Test</title>
+    <link rel="stylesheet" href="Css.css">
 </head>
 <body>
+    <h1>CSS-Test</h1>
+    <p class="green">This uses css.</p>
+    <div class="box"> <p style="text-align: center;">this is a boxmodel</p></div>
+    
+    <div class="rdmafb">
+        <br>
+        <h1 style="color: white; background-color: rgba(77, 255, 0, 0.244); text-align: center;">hier is een foto achtergrond!</h1>
+        <br>
+    </div>
 
-    <h1>Test titel</h1>
-    <p id="hcontrast">Dit is een basis</p>
-    <p class="center large"></p>
-
+    <div class="container">
+        <h2>Inciment and decrement</h2>
+        <div class="card">
+            <button onclick="decrement()">-</button>
+            <h3 id="root"></h3>
+            <button onclick="increment()">+</button>
+        </div>
+    </div>
+    <script>
+        var data=0;
+        document.getElementById("root").innerText=data;
+        function decrement(){
+            data=data-1;
+            document.getElementById("root").innerText=data;
+        }
+        function increment(){
+            data=data+1;
+            document.getElementById("root").innerText=data;
+        }
+    </script>
 </body>

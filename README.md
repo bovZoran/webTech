@@ -3,8 +3,8 @@
 - [X] HTML
 - [X] Markdown
 - [X] CSS
-- [ ] Bootstrap
-- [ ] JavaScript
+- [X] Bootstrap
+- [X] JavaScript
 - [ ] Ajax  
 - [ ] PHP
 - [ ] SQL
